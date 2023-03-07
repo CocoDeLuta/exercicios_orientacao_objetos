@@ -1,0 +1,15 @@
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\bin\Debug\net7.0\contagemRegressiva.exe
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\bin\Debug\net7.0\contagemRegressiva.deps.json
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\bin\Debug\net7.0\contagemRegressiva.runtimeconfig.json
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\bin\Debug\net7.0\contagemRegressiva.dll
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\bin\Debug\net7.0\contagemRegressiva.pdb
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.csproj.AssemblyReference.cache
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.AssemblyInfoInputs.cache
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.AssemblyInfo.cs
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.dll
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\refint\contagemRegressiva.dll
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.pdb
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\contagemRegressiva.genruntimeconfig.cache
+C:\Users\mateu\Desktop\Codas\C#\contagemRegressiva\obj\Debug\net7.0\ref\contagemRegressiva.dll
