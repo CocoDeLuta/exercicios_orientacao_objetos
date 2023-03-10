@@ -1,15 +1,18 @@
 ﻿using System;
 
-public class Cadasatro{
-    public static void Main(){
+public class Cadasatro
+{
+    public static void Main()
+    {
 
         int indice = 0;
         int menuOption = 5;
         int deleteIndex = 0;
-        Porduto[] produto = new Porduto[indice]; 
-        
+        Porduto[] produto = new Porduto[indice];
 
-        while(menuOption!=4){
+
+        while (menuOption != 4)
+        {
 
             Console.WriteLine("1 - Adicionar um produto");
             Console.WriteLine("2 - Apagar um produto");
@@ -17,59 +20,69 @@ public class Cadasatro{
             Console.WriteLine("4 - Encerrar");
             menuOption = Convert.ToInt32(Console.ReadLine());
 
-            switch(menuOption){
+            switch (menuOption)
+            {
                 case 1:
                     //menu adicionar
                     indice++;
                     Array.Resize(ref produto, indice);
                     Console.WriteLine("Informe o nome do produto");
-                    produto[indice-1].nome = Console.ReadLine();
+                    produto[indice - 1].nome = Console.ReadLine();
                     Console.WriteLine("Informe o preço do produto");
-                    produto[indice-1].preco = float.Parse(Console.ReadLine());
-                break;
+                    produto[indice - 1].preco = float.Parse(Console.ReadLine());
+                    break;
                 case 2:
                     //menu apagar
                     Console.WriteLine("Selecione o produte que quer apagar");
-                    for(int i=0; i<indice; i++){
-                        Console.WriteLine(i+" "+produto[i].nome);
+                    for (int i = 0; i < indice; i++)
+                    {
+                        Console.WriteLine(i + "-" + produto[i].nome);
                         Console.WriteLine("");
                     }
                     deleteIndex = Convert.ToInt32(Console.ReadLine());
-                    //deletar os dados do produto a ser apagado
-                    for(int i=deleteIndex; i<(indice-deleteIndex); i++){
-                        produto[i] = produto[i+1];
+
+                    if (deleteIndex > 0)
+                    {
+                        //deletar os dados do produto a ser apagado
+                        for (int i = deleteIndex; i < (indice - deleteIndex); i++)
+                        {
+                            produto[i] = produto[i + 1];
+                        }
                     }
                     //deletar o ultimo indice pois ficou duplicado
                     indice--;
                     Array.Resize(ref produto, indice);
 
-                break;
+                    break;
                 case 3:
                     //menu consultar
-                    for(int i=0; i<indice; i++){
+                    for (int i = 0; i < indice; i++)
+                    {
                         Console.WriteLine(produto[i].nome);
                         Console.WriteLine(produto[i].preco);
                         Console.WriteLine("");
                     }
-                break;
+                    break;
                 case 4:
                     //encerrar
-                break;
+                    break;
                 default:
-                    Console.WriteLine("Opção inváalida");
-                break;
+                    Console.WriteLine("Opção inválida");
+                    break;
             }
-        
+
         }
-        
-        for(int i=0; i<indice; i++){
+
+        for (int i = 0; i < indice; i++)
+        {
             Console.WriteLine(produto[i].nome);
             Console.WriteLine(produto[i].preco);
             Console.WriteLine("");
         }
     }
 
-    public struct Porduto{
+    public struct Porduto
+    {
         public string nome;
         public float preco;
     }
